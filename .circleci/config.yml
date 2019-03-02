@@ -14,7 +14,7 @@ jobs:
     steps:
     
       - checkout
-      
+      - run: chmod +x gradlew
       - run: ./gradlew check
 
       - run: sudo su -c 'echo "deb http://deb.debian.org/debian jessie-backports main" >> /etc/apt/sources.list'
