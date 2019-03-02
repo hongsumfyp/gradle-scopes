@@ -5,7 +5,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/maven-exclusion-support
+    working_directory: ~/gradle-scopes
     
     docker:
       # specify the version you desire here
